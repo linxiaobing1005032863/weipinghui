@@ -1,0 +1,165 @@
+.container{
+	width:100%;
+	margin: 0 auto;
+	
+	
+}
+body{
+	background: #FFFFFF;
+}
+/*头部开始*/
+.cart_header{
+	width:100%;
+	margin: 0 auto;
+}
+.cart_head{
+	width:100%;
+	position: relative;
+}
+.cart_head_top{
+	position: relative;
+	width:100%;
+	height:3.5rem;
+	background: #FBFBFA;
+}
+.cart_head_top a{
+	position: absolute;
+	display:block;
+	width:5%;
+	top:0;
+	left: 0;
+	padding-top: 3%;
+	height:3.5rem
+}
+.cart_head_top a img{
+	width:100%;
+}
+.cart_head_top span{
+	display: block;
+	width:100%;
+	height:3.5rem;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 3.5rem;
+}
+.cart_head_top .Timedown{
+	position:absolute;
+	right:0px;
+	top:0;
+	width:45%;
+	font-size: 1.2rem;
+	line-height: 3.5rem;
+}
+.cart_head_top .Timedown span{
+	display: block;
+	width:5%;
+	font-size: 1.2rem;
+	line-height: 3.5rem;
+	float: left;
+	color:#DF017A;
+}
+.cart_head_con{
+	position: relative;
+	width:100%;
+	background: #e8eaf4;
+	height:3.0rem;
+	line-height: 3.0rem;
+}
+.cart_head_con span{
+	position: absolute;
+	left:5%;
+	top:10%;
+	display: block;
+	width:8%;
+	
+}
+.cart_head_con span img{
+	width:100%
+}
+.cart_head_con i{
+	width:100%;
+	display: block;
+	padding-left: 10%;
+	font-size: 1.0rem;
+}
+.cart_head_down{
+	width:100%;
+	height:3.5rem;
+	background: #656c89;
+}
+.cart_head_down a{
+	display: block;
+	width:100%;
+	height:3.5rem;
+	
+}
+.cart_head_down a span{
+	display: block;
+	width:50%;
+	height:3.5rem;
+	float: left;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 3.5rem;
+	color:#FFFFFF
+	
+}
+.cart_head_down a span:last-child{
+	padding-left: 40%;
+	display: block;
+	float: right;
+	padding-top: 2.5%;
+}
+.cart_head_down a span:last-child img{
+	display: block;
+	width:50%
+}
+.chuback{
+	width:100%;
+	height:1.0rem;
+	background:#e8eaf4;
+}
+/*头部结束*/
+/*主体开始*/
+.cart_main{
+	width:100%;
+    background:url(img/cart/gwcbg.png) no-repeat white;
+    /*height:35rem;*/
+}
+.cart_main_box{
+	width:100%;
+	margin-bottom: 1.5rem;
+	
+	
+}
+.cart_main_box img{
+
+	display: block;
+	width:30%;
+	margin-left: 35%;
+	
+}
+.cart_main_box p{
+	width:100%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 3rem;
+}
+.cart_main_box input{
+	width:40%;
+	height:3.5rem;
+	border:1px solid #DF017A;
+	font-size: 1.4rem;
+	line-height: 3.5rem;
+	text-align: center;
+	background: #FFFFFF;
+	margin-left:30% ;
+	margin-top:1.5rem;
+	border-radius: 3%;
+	color:#DF017A
+
+	
+	
+}
+
+/*尾部结束*/

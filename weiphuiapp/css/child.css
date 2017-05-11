@@ -1,0 +1,229 @@
+/*导航栏开始*/
+.nav_box ul li a{
+	color:#a9afb6;
+
+}
+
+.nav_box ul li:nth-child(5) a {
+	border-bottom: 2px solid #de3d96;
+	color:white;
+}
+/*导航栏结束*/
+/*商品大区块开始*/
+.main{
+	width:100%;
+	padding-top:6.3rem;
+}
+.banner_a{
+	display: block;
+	width:100%;
+}
+.banner_a img{
+	display: block;
+	width:100%;
+}
+.banner_b {
+	display: block;
+	width:100%;
+}
+.banner_b a{
+	display: block;
+	width:100%;
+}
+.banner_b a img{
+	display: block;
+	width:100%;
+}
+.banner_c{
+	display: block;
+	width:100%
+}
+.banner_c a{
+	display: block;
+	width:100%
+}
+.banner_c a img{
+	display: block;
+	width:100%
+}
+/*商品分类开始*/
+.Categories{
+	width:100%;	
+}
+.Categories ul{
+	width:100%
+}
+.Categories ul li{
+	float: left;
+	width:25%;
+}
+.Categories ul li a{
+	display: block;
+	width: 100%;
+}
+.Categories ul li a img{
+	display: block;
+	width: 100%;
+}
+/*商品分类结束*/
+.banner_d{
+	display: block;
+	width:100%;
+}
+.banner_d a{
+	display: block;
+	width:100%;
+}
+.banner_d a img{
+	display: block;
+	width:100%;
+}
+.banner_e{
+	width:100%;
+	
+}
+.banner_e ul{
+	width:100%;
+}
+.banner_e ul li{
+	float: left;
+	width:33.33333%;
+}
+.banner_e ul li a{
+	display: block;
+	width: 100%;
+}
+.banner_e ul li a img{
+	display: block;
+	width: 100%;
+}
+.banner_g{
+	width:100%;
+}
+.banner_g .ban_gL{
+	width:50%;
+	float: left;
+}
+.banner_g .ban_gL a{
+	display: block;
+	width: 100%;
+}
+.banner_g .ban_gL a img{
+	display: block;
+	width: 100%;
+}
+.banner_g .ban_gr{
+	width:50%;
+	float: right;
+}
+.banner_g .ban_gr a{
+	width:100%;
+	float: right;
+}
+.banner_g .ban_gr a img{
+	width:100%;
+	float: right;
+}
+.banner_f{
+	width:100%;
+}
+.banner_f ul{
+	width:100%;
+}
+.banner_f ul li{
+	float: left;
+	width:50%
+}
+.banner_f ul li a{
+	display:block;
+	width:100%
+		
+}
+.banner_f ul li a img{
+	display:block;
+	width:100%
+		
+}
+/*商品区块开始*/
+.cateTime{
+	width:100%;
+	padding:0% 20% 0% 20%;
+	/*font-size: 18px;*/
+	font-size:1.12rem;
+	line-height: 40px;
+	background:#FFFFFF;
+	
+}
+.cateTime span{
+	width:100%;
+	display: block;
+}
+.category{
+	width:100%;
+	
+}
+.category .cateTup{
+	width:100%;
+	position: relative;
+}
+.category .cateTup a{
+	display: block;
+	width:100%;
+}
+.category .cateTup a img{
+	display: block;
+	width:100%;
+}
+.category .cateTup span{
+	display: block;
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	width:100%;
+	font-size:1.0rem;
+	line-height: 36px;
+	background:#FFFFFF;
+	opacity: 0.8;
+	color:black;
+	
+	
+}
+.category .cateWrite{
+	width:100%;
+	padding: 0px 0px 0px 10px;
+}
+.category .cateWrite span{
+	float:left;
+	display: block;
+	width:70%;
+	font-size: 1.0rem;
+	line-height: 40px;
+}
+.category .cateWrite span:last-child{
+	float:right;
+	display: block;
+	width:12%;
+	font-size: 1.0rem;
+	line-height: 40px;
+	color: gray;
+}
+.category .cateWrite span i{
+	display: block;
+	float: left;
+	color:#df017a;
+	font-size:1.12rem;	
+}
+.category .cateWrite span i:last-child{
+	display: block;
+	float:left;
+	color:black;
+	padding-left: 20px;
+
+}
+.category .cateWrite span i:last-child a{
+	display: block;
+	color:black;
+}
+
+/*商品区块结束*/
+/*商品大区块结束*/

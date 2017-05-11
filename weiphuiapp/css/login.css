@@ -1,0 +1,244 @@
+html,body{
+	background:#fbfbfa;
+}
+.container{
+	width:100%;
+	background:#fbfbfa;
+}
+/*头部开始*/
+.login_header{
+	width:100%;
+	
+}
+.login_head{
+	width:100%;
+	position: relative;
+	
+}
+.login_head_top{
+	width:100%;
+	height:3.5rem;
+	position: relative;
+}
+.headback{
+	display: block;
+	position:absolute;
+	left:10px;
+	top:0.8rem;
+	width:2.1rem;
+	height:2.1rem;
+	
+}
+.headback img{
+	display: block;
+	width:100%
+}
+.headhome{
+	display: block;
+	position:absolute;
+	right:16px;
+	top:0.8rem;
+	width:2.3rem;
+	height:2.3rem;
+	
+}
+.headhome img{
+	display: block;
+	width:100%;
+	
+}
+
+/*头部结束*/
+/*主体开始*/
+.login_main{
+	width:100%;
+}
+.main_top{
+	width:100%;
+}
+.main_top .welcome{
+	width:30%;
+	float: left;
+	font-size: 0.6rem;
+	line-height: 2.5rem;
+	padding-left: 5%;
+}
+.main_top .register{
+	width:45%;
+	float: right;
+	font-size: 0.6rem;
+	line-height: 2.5rem;
+	padding-left: 10%;
+}
+.main_top .register i{
+	display: block;
+	width:60%;
+	float:left;
+}
+.main_top .register a{
+	display: block;
+	color:#DF017A;
+	float:left;
+}
+.main_con{
+	width:100%;
+	position:relative;
+}
+.main_con form{
+	padding-left: 15%;
+	margin-top: 5.0rem;
+	width:100%;
+	margin: 5.0rem auto;
+	
+}
+.main_con form p{
+	width:100%;
+	font-size: 1.5rem;
+	line-height: 3.0rem;
+	height:5.0rem ;
+}
+.main_con form p span{
+	display: block;
+	width:100%;
+	font-size: 1.0rem;
+	line-height: 2.0rem;
+	padding-left: 10%;
+	
+	
+}
+.main_con form p input{
+	padding-left: 10%;
+	width:80%;
+	height:3.0rem;
+	
+}
+.main_con form p input:last-child{
+	width:30%;
+	text-align: center;
+	padding-right: 10%;
+	border-style: none;
+	background: #DF017A;
+	border-radius: 5%;
+	margin-left: 20%;
+	
+}
+.main_con a{
+	position:absolute;
+	display: block;
+	width:30%;
+	font-size: 1.0rem;
+	color:blue;
+	top:27.0rem;
+	right:0rem;
+}
+
+/*主体结束*/
+/*尾部开始*/
+/*尾部开始*/
+.personal_footer{
+	width:100%;
+	background:#FFFFFF;
+}
+.personal_foot{
+	width:100%;
+}
+.personal_foot_top{
+	width:100%;
+	padding: 5% 0% 5% 0%;
+	border-bottom: 1px solid gray;
+}
+.personal_foot_top .weip_logo{
+	margin-left: 3%;
+	width:3.5rem;
+	height:3.5rem;
+	border-radius: 30%;
+	background:#DF017A;
+	float: left;
+}
+.personal_foot_top .weip_logo:before{
+	content: "唯品会";
+	text-align: center;
+	line-height: 3.5rem;
+	font-size:1.0rem ;
+	padding-left: 8%;
+	color:#FFFFFF;
+	box-sizing: border-box;
+	
+}
+.personal_foot_top span{
+	display: block;
+	font-size:1.0rem;
+	line-height: 2.5rem;
+	float: left;
+	text-align: center;
+	margin-top: 2%;
+	padding-left: 2%;
+	
+}
+.personal_foot_top .login{
+	height:2.5rem;
+	width:20%;
+	border:1px solid #DF017A;
+	float: right;
+	margin-right: 5%;
+	color:#DF017A;
+	padding-right: 2%;
+}
+.personal_foot_con{
+	width:100%;
+}
+.personal_foot_con .left{
+	width:50%;
+	float:left;
+}
+.personal_foot_con .left li{
+	width:35%;
+	float: left;
+	font-size: 1.0rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.personal_foot_con .left li a{
+	display: block;
+	width:100%;
+	color:grey;
+}
+.personal_foot_con .right{
+	width:30%;
+	float:right;
+	padding-left: 5%;
+}
+.personal_foot_con .right li{
+	float: left;
+    font-size: 1.0rem;
+   text-align: center;
+   line-height: 2.5rem;
+   padding-left: 5%;
+}
+.personal_foot_con .right li a{
+	display: block;
+	width:100%;
+	color:grey;
+}
+.personal_foot_down{
+	width:100%;
+}
+.personal_foot_down .down_p1{
+	width:100%;
+	font-size:1.0rem;
+	text-align: center;
+	color:darkgray;
+}
+
+.personal_foot_down .down_p2{
+	padding: 3% 0%;
+	width:100%;
+	font-size:0.8rem;
+	text-align: center;
+	color:darkgray;
+}
+.personal_foot_down .down_p2 img{
+	width:5%
+}
+/*尾部结束*/
+/*尾部结束*/

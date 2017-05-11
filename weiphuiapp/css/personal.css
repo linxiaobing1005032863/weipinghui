@@ -1,0 +1,317 @@
+.body,html{
+	width:100%;
+	background:#fbfbfa;
+}
+.container{
+	width:100%;
+	min-width:300px;
+	max-width: 640px;
+	/*margin:0 auto;*/
+	background:#fbfbfa;
+}
+/*头部开始*/
+.personal_header{
+	width:100%;
+	background: #fbfbfa;
+	
+}
+.personal_head{
+	width:100%;
+	position: relative;
+	
+}
+.personal_head_top{
+	width:100%;
+	height:3.5rem;
+	position: relative;
+}
+.headback{
+	display: block;
+	position:absolute;
+	left:10px;
+	top:0.8rem;
+	width:2.1rem;
+	height:2.1rem;
+	
+}
+.headback img{
+	display: block;
+	width:100%;
+}
+.headhome{
+	display: block;
+	position:absolute;
+	right:16px;
+	top:0.8rem;
+	width:2.3rem;
+	height:2.3rem;
+	
+}
+.headhome img{
+	display: block;
+	width:100%
+}
+.personal_head_down{
+	width:100%;
+	position: absolute;
+	top:50%;
+	left:30%;
+}
+.personal_head img{
+	display: block;
+	width:100%;
+}
+.personal_head_down ul{
+	width:40%;
+}
+.personal_head_down ul li{
+	width:50%;
+	float: left;
+	font-size: 1.2rem;
+	border-left: 1px solid gray;
+	text-align: center;
+}
+.personal_head_down ul li:nth-child(1){
+	border-left:none;
+}
+.personal_head_down ul li a{
+	display: block;
+	width:100%;
+	color:grey;
+}
+.personal_head_down span{
+	width: 20%;
+	font-size:1.5rem;
+	float: left;
+}
+#append_login{
+	width: 80%;
+	font-size: 2.5rem;
+	color:#DF017A;
+	float: right;
+	
+}
+.personal_head_down #zx{
+	position:absolute;
+	display: block;
+	width:15%;
+	line-height: 2.0rem;
+	font-size:0.8rem;
+	color:#DE3D96;
+	top:180%;
+	right:70%;
+	border: 1px solid #DE3D96;
+	background:#FFFFFF;
+}
+/*头部结束*/
+/*主体部分开始*/
+.personal_main{
+	width:100%;
+	margin:0 auto;
+	
+}
+.personal_main_top{
+	width:100%;
+}
+.personal_main_top ul{
+	width:100%;
+}
+.personal_main_top ul li{
+	width:33.33333%;
+	float:left;
+	font-size:1.2rem;
+	text-align: center;
+}
+.personal_main_top ul li a{
+	width:100%;
+   display: block;
+   color:grey
+   
+   
+}
+.personal_main_top ul li a img{
+	margin-left: 30%;
+	width:20%;
+	display: block;
+}
+.personal_main_top ul li a span{
+	padding-top: 10%;
+	padding-right:20%;
+	width:100%;
+	display: block;
+}
+.personal_main_down{
+	width:100%;
+}
+.personal_main_down ul{
+	width:100%;
+}
+.personal_main_down ul li{
+	position: relative;
+	width:100%;
+	font-size:1.4rem;
+	line-height: 5.0rem;
+	padding-left: 5%;
+	box-sizing: border-box;
+}
+.personal_main_down ul li a{
+	color:grey;
+	position: relative;
+	display: block;
+	width:100%;
+}
+.personal_main_down ul li a span{
+	display: block;
+	width:90%;
+	float: left;
+	font-size:1.4rem;
+	line-height: 5.0rem;
+	
+	/*background:"url(img/personal/new.png)" no-repeat right center;*/
+	
+}
+.personal_main_down ul li a .new{
+	position:absolute;
+	left:75%;
+	top:50%;
+	display: block;
+	width:10%;
+	padding-top: 5%;
+	
+}
+.personal_main_down ul li a .write{
+	position:absolute;
+	top:0%;
+	left:40%;
+	font-size: 1.4rem;
+	display: block;
+	width:50%;
+	padding-top: 114%;
+	color:#DF017A;
+	
+}
+.personal_main_down ul li a .new img{
+	display: block;
+	width:100%;
+}
+.personal_main_down ul li a i{
+	
+	display: block;
+	width:10%;
+	float: right;
+}
+.personal_main_down ul li a i img{
+	margin-top: 60%;
+	width:30%;
+	display: block;
+	
+}
+/*主体部分结束*/
+/*尾部开始*/
+/*尾部开始*/
+.personal_footer{
+	width:100%;
+	background:#FFFFFF;
+}
+.personal_foot{
+	width:100%;
+}
+.personal_foot_top{
+	width:100%;
+	padding: 5% 0% 5% 0%;
+	border-bottom: 1px solid gray;
+}
+.personal_foot_top .weip_logo{
+	margin-left: 3%;
+	width:3.5rem;
+	height:3.5rem;
+	border-radius: 30%;
+	background:#DF017A;
+	float: left;
+}
+.personal_foot_top .weip_logo:before{
+	content: "唯品会";
+	text-align: center;
+	line-height: 3.5rem;
+	font-size:1.0rem ;
+	padding-left: 8%;
+	color:#FFFFFF;
+	box-sizing: border-box;
+	
+}
+.personal_foot_top span{
+	display: block;
+	font-size:1.0rem;
+	line-height: 2.5rem;
+	float: left;
+	text-align: center;
+	margin-top: 2%;
+	padding-left: 2%;
+	
+}
+.personal_foot_top .login{
+	height:2.5rem;
+	width:20%;
+	border:1px solid #DF017A;
+	float: right;
+	margin-right: 5%;
+	color:#DF017A;
+	padding-right: 2%;
+}
+.personal_foot_con{
+	width:100%;
+}
+.personal_foot_con .left{
+	width:50%;
+	float:left;
+}
+.personal_foot_con .left li{
+	width:35%;
+	float: left;
+	font-size: 1.0rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.personal_foot_con .left li a{
+	display: block;
+	width:100%;
+	color:grey;
+}
+.personal_foot_con .right{
+	width:30%;
+	float:right;
+	padding-left: 5%;
+}
+.personal_foot_con .right li{
+	float: left;
+    font-size: 1.0rem;
+   text-align: center;
+   line-height: 2.5rem;
+   padding-left: 5%;
+}
+.personal_foot_con .right li a{
+	display: block;
+	width:100%;
+	color:grey;
+}
+.personal_foot_down{
+	width:100%;
+}
+.personal_foot_down .down_p1{
+	width:100%;
+	font-size:1.0rem;
+	text-align: center;
+	color:darkgray;
+}
+
+.personal_foot_down .down_p2{
+	padding: 3% 0%;
+	width:100%;
+	font-size:0.8rem;
+	text-align: center;
+	color:darkgray;
+}
+.personal_foot_down .down_p2 img{
+	width:5%
+}
+/*尾部结束*/
